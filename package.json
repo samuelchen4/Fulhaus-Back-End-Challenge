@@ -1,0 +1,27 @@
+{
+  "name": "fulhaus-back-end-test",
+  "version": "1.0.0",
+  "description": "REST api for fulhaus test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelchen4/Fulhaus-Back-End-Challenge.git"
+  },
+  "author": "Samuel Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelchen4/Fulhaus-Back-End-Challenge/issues"
+  },
+  "homepage": "https://github.com/samuelchen4/Fulhaus-Back-End-Challenge#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
