@@ -19,7 +19,7 @@ const getAcronyms = async (req, res) => {
 
     res.setHeader('Current-Page-Position', `${page}/${pages}`);
     res.setHeader('More-Results-Avaliable', page < pages ? true : false);
-    res.status(200).json({ acronyms, page, pages });
+    res.status(201).json({ acronyms, page, pages });
   } catch (err) {
     res.status(500).json(err.message);
   }
