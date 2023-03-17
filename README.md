@@ -17,6 +17,7 @@ REST API for acronyms. Created with NodeJs, Express framework, MongoDb for datab
 - server runs on port 5000
 - on server start, a MongoDb will be instantiated with the name fulhausDB
   - if no documents exist in database, the seeder data will be automatically added
+- main endpoint is 'http://localhost:5000/api/acroynm'
 
 ## Functionality
 
@@ -36,12 +37,12 @@ Gets a list of acronyms based on an input string that is fuzzy matched against t
 
 ### POST
 
-Inserts a new acronym document into collection
+Inserts a new acronym document into collection.
 
 ### PATCH
 
-Updates the acronym name for document based on the id
+Updates the acronym name for document based on the id.
 
 ### DELETE
 
-deletes a document based on id
+deletes a document based on id.
